@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA Firm</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Baloo Bhai 2', cursive;
+
+            margin: 0px;
+            padding: 0px;
+            background-color: rgb(114, 212, 236);
+        }
+
+        header {
+            overflow: hidden;
+        }
+
+        .left {
+            display: inline block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 28px;
+            top: 19px;
+        }
+
+        .left img {
+            width: 150px;
+        }
+
+        #t1 {
+            font-size: 50px;
+            text-align: center;
+            color: white
+        }
+
+        /* header::before {
+            background: url('https://images.unsplash.com/photo-1554224155-a1487473ffd9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80') no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            opacity: 1.0;
+        } */
+        .img1 {
+            /* border: solid 2px black; */
+            margin: 21px 20px 20px 413px;
+            padding: 30px;
+            height: 220px;
+            width: 700px;
+        }
+
+        .mid {
+            display: block;
+            width: 36%;
+            margin: 20px auto;
+            /* border: 2px solid green; */
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: rgb(247, 74, 74);
+            text-decoration: none;
+            padding: 30px 12px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: grey;
+            text-decoration: underline;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .right {
+            position: absolute;
+            right: 33px;
+            top: 22px;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+            background: skyblue;
+            margin-top: 20px;
+            position: absolute;
+
+            left: 87px;
+            top: 260px
+        }
+
+        .container ul {
+            padding: 0px;
+            margin: 0px;
+        }
+
+
+        .container ul li {
+            float: left;
+            list-style: none;
+            width: 20%;
+            height: 300px;
+            background: red;
+            margin: 20px 0px 20px 55px;
+            border: 2px solid blue;
+            box-sizing: border-box;
+        }
+
+        .container ul li:hover {
+            opacity: 0.8;
+        }
+
+        .container ul li .bottom {
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            background: blue;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+
+        }
+
+        @media screen and (max-width:1250px) {
+            .container ul li {
+                width: 40%;
+                margin-left: 40px;
+
+            }
+        }
+
+
+        .foot {
+            /* border: solid 2px red; */
+            margin: 0px;
+            padding: 10px 0px 10px 0px;
+            background: rgb(100, 160, 184);
+            color: white;
+            position: absolute;
+            bottom: 0.5px;
+            /* right: 18%; */
+            width: 100%;
+            height: 50px;
+            text-align: center;
+        }
+
+        @media only screen and (max-width:870px) {
+            .right {
+                display: none;
+            }
+
+        }
+
+        @media only screen and (max-width:576px) {
+            .navbar {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="https://th.bing.com/th/id/R.e094f22fd0ffc482cfb1f33e6c8d1c4a?rik=PdmR%2fie29m1pxQ&riu=http%3a%2f%2fummeed.in%2fwp-content%2fuploads%2f2017%2f01%2fCA_Logo2.png&ehk=r8b4iJX0d%2f%2bRKpILVtWgW6nsrNfCso8bV6rskJoCwRI%3d&risl=&pid=ImgRaw"
+                alt="CA image not found">
+            <div id="t1">CA company</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Tools</a></li>
+                <li><a href="#">Acts</a></li>
+                <li><a href="#">Circulars</a></li>
+            </ul>
+        </div>
+        <div class="img1">
+
+            <img src="https://www.reed.co.uk/career-advice/wp-content/uploads/sites/6/2015/11/chartered-accountant.jpg"
+                alt="Image not found" width="650px" height="200px">
+        </div>
+        <!-- right for buttons -->
+        <div class="right">
+            <button class="btn">call us now</button><button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <ul>
+            <li>
+                <div class="bottom">News
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ratione non officiis quo debitis,
+                        alias ipsa perspiciatis unde vitae a veritatis rerum! Cumque, dicta laudantium?
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="bottom">Due Date Reminder
+                    <P>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero delectus magni facere itaque,
+                        laudantium, rerum minima possimus tenetur veniam beatae, consectetur quisquam repellendus
+                        blanditiis dolore.
+                    </P>
+                </div>
+            </li>
+            <li>
+                <div class="bottom">Company News
+                    <H4>
+                        About Tax
+                    </H4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tempora iste dolores,
+                        distinctio eum ad.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="bottom">Our Details
+                    <p>
+                        <strong>CA Company</strong><br>
+                        Address:Abhishek Nagar,Shevgaon 414502.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <div class="foot">
+            <p>
+                Website created by Abhishek Pawar &#169; Copyright 2021
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
